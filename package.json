@@ -1,0 +1,27 @@
+{
+  "name": "backbone-example",
+  "version": "1.0.0",
+  "description": "for learn backbone.js",
+  "main": "index.js",
+  "dependencies": {
+    "backbone": "^1.4.0",
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.0",
+    "underscore": "^1.10.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmaryam27/backbone-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kmaryam27/backbone-example/issues"
+  },
+  "homepage": "https://github.com/kmaryam27/backbone-example#readme"
+}

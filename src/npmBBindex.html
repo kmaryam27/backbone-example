@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--  -->
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <!--  -->
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>hi Mary</h1>
+        <table class="table">
+            <thead>
+                <tr>
+                    <td>name</td>
+                    <td>family</td>
+                    <td>email</td>
+                    <td>phone</td>
+                    <td>Action</td>
+                </tr>
+                <tr>
+                    <td><input class="form_control name-input"/></td>
+                    <td><input class="form_control family-input"/></td>
+                    <td><input class="form_control email-input"/></td>
+                    <td><input class="form_control phone-input"/></td>
+                    <td><button class="btn btn-primary add-model">add new row</button></td>
+                </tr>
+            </thead>
+            <tbody class="models-list">
+
+            </tbody>
+        </table>
+    </div>
+    <!-- for creating view from a model to read it -->
+    <script type="text/templete" class="models-list-templete">
+        <td><span class="name"><%= name %></span></td>
+        <td><span class="family"><%= family %></span></td>
+        <td><span class="email"><%= email %></span></td>
+        <td><span class="phone"><%= phone %></span></td>
+        <td><button class="btn btn-warning edit-model">Edit</button></td>
+        <td><button class="btn btn-danger delete-model">Delete</button></td>
+    </script>
+
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/underscore/underscore.js"></script>
+    <script src="../node_modules/backbone/backbone.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
