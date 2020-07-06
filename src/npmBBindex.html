@@ -39,7 +39,11 @@
         <td><span class="family"><%= family %></span></td>
         <td><span class="email"><%= email %></span></td>
         <td><span class="phone"><%= phone %></span></td>
-        <td><button class="btn btn-warning edit-model">Edit</button></td>
+        <td>
+            <button class="btn btn-warning edit-model">Edit</button>
+            <button class="btn btn-success edit-update" style="display: none">Update</button>
+            <button class="btn btn-danger edit-cancel" style="display: none">Cancel</button>
+        </td>
         <td><button class="btn btn-danger delete-model">Delete</button></td>
     </script>
 
